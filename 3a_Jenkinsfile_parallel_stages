@@ -4,6 +4,7 @@ pipeline {
        stage('Initial Stage') {
            steps {
                println("Initial Stage Steps")
+               echo "hello....."
            }
        }
        stage('parallel stage execution') {
